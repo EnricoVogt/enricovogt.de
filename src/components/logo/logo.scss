@@ -1,0 +1,88 @@
+@import '../../variables';
+
+$logo-fill-primary: #333;
+$logo-fill-secondary: #222;
+
+.logo {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+.logo polygon.triangle-element {
+    transition: all .75s ease-in;
+    fill: $logo-fill-primary;
+    stroke-width: 1;
+}
+
+.logo polygon.triangle-element.c767196 {
+    stroke: #767196;
+    fill: $logo-fill-secondary
+}
+
+.logo polygon.triangle-element.c04C27B {
+    stroke: #04C27B
+}
+
+.logo polygon.triangle-element.c7F6A94 {
+    stroke: #7F6A94;
+    fill: $logo-fill-secondary
+}
+
+.logo polygon.triangle-element.c2DBD06 {
+    stroke: #2DBD06
+}
+
+.logo polygon.triangle-element.c42B36B {
+    stroke: #42B36B;
+    fill: $logo-fill-secondary
+}
+
+.logo polygon.triangle-element.cF2FE69 {
+    stroke: #F2FE69
+}
+
+.logo polygon.triangle-element.c4D29FD {
+    stroke: #4D29FD;
+    fill: $logo-fill-secondary
+}
+
+.logo polygon.triangle-element.cD4FBAA {
+    stroke: #D4FBAA
+}
+
+.logo polygon.triangle-element.c8E997D {
+    stroke: #8E997D;
+    fill: $logo-fill-secondary
+}
+
+.logo polygon.triangle-element.c545DB8 {
+    stroke: #545DB8
+}
+
+.logo polygon.triangle-element.c940ED0 {
+    stroke: #940ED0;
+    fill: $logo-fill-secondary
+}
+
+.logo polygon.triangle-element.cA81D3B {
+    stroke: #A81D3B
+}
+
+.logo polygon.triangle-element.cA0E287 {
+    stroke: #A0E287;
+    fill: $logo-fill-secondary
+}
+
+.logo polygon.triangle-element.cCB9047 {
+    stroke: #CB9047
+}
+
+.logo polygon.triangle-element.c36E336 {
+    stroke: #36E336;
+    fill: $logo-fill-secondary
+}
+
+.logo polygon.triangle-element.c8F30A9 {
+    stroke: #8F30A9
+}

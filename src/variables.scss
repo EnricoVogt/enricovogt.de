@@ -1,0 +1,25 @@
+
+
+@function map-deep-get($map, $keys...) {
+    @each $key in $keys {
+        $map: map-get($map, $key);
+    }
+    @return $map;
+}
+
+$themes: (
+    light: (
+        app-background-color:#f9f9f9,
+        app-color:#333,
+        app-border-color: #e6e6e6,
+        app-components-background-color: #fff,
+        app-box-shaddow-color: #f1f1f1,
+    ),
+    dark: (
+        app-background-color:#333,
+        app-color:#f9f9f9,
+        app-border-color: #000,
+        app-components-background-color: #222,
+        app-box-shaddow-color: #222,
+    ),
+);

@@ -1,0 +1,53 @@
+  
+@import './variables';
+
+* {
+  font-family: sans-serif;
+  font-weight: lighter;
+  
+}
+
+#app,
+#app > div {height: inherit;}
+
+* a {
+  text-decoration: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin:0;
+}
+
+.light {
+  background-color: map-deep-get($themes, "light", "app-background-color");
+  color: map-deep-get($themes, "light", "app-color");
+}
+
+.light a {
+  color: map-deep-get($themes, "light", "app-color");
+}
+
+.dark {
+  background-color: map-deep-get($themes, "dark", "app-background-color");
+  color: map-deep-get($themes, "dark", "app-color");
+}
+
+.dark a {
+  color: map-deep-get($themes, "dark", "app-color");
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: -120px;
+}
+
+@media screen and (max-width: 500px) {
+  .split-view {
+      flex-direction: column;
+  }
+}

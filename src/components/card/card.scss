@@ -1,0 +1,18 @@
+@import '../../variables';
+
+.card {
+    padding: 2rem;
+    margin: .5rem;
+}
+
+.light .card {
+    border: 1px solid map-deep-get($themes, "light", "app-border-color");
+    box-shadow: 0 0 25px map-deep-get($themes, "light", "app-box-shaddow-color");
+    background: map-deep-get($themes, "light", "app-components-background-color");
+}
+
+.dark .card {
+    border: 1px solid map-deep-get($themes, "dark", "app-border-color");
+    box-shadow: 0 0 25px map-deep-get($themes, "dark", "app-box-shaddow-color");
+    background: map-deep-get($themes, "dark", "app-components-background-color");
+}

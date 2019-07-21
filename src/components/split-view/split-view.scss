@@ -1,0 +1,12 @@
+
+.split-view {
+    display: flex;
+}
+
+.split-view *:not(.spacer) {
+    flex: 1
+}
+
+.split-view .spacer {
+    width: 1rem
+}

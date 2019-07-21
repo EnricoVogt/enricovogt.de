@@ -1,0 +1,5 @@
+@import '../../variables';
+
+.panel h3 {
+    border-bottom: 2px solid map-deep-get($themes, "light", "app-border-color");
+}
