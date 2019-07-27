@@ -1,4 +1,8 @@
 
 .icon-label {
-
+    &> span {
+        width: 25px;
+        display: inline-block;
+        text-align: center;
+    }
 }
